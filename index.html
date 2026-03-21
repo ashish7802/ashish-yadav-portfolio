@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashish Yadav</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#home" class="logo">
+            <div class="logo-circle">AY</div>
+            <span class="logo-text">Ashish</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#resume">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-left">
+            <img src="images/avatar.png" alt="Profile" class="profile-img">
+        </div>
+        <div class="hero-right">
+            <p class="intro">Hi I'm <span class="typing-container"><span id="typing-text"></span><span class="cursor"></span></span></p>
+            <h1 class="hero-name">Ashish Yadav</h1>
+            <p class="hero-description">
+                I build complete web applications from scratch — frontend, backend, database, and deployment. I also create AI-powered products for real clients. Clean code. Real results. Production-ready.
+            </p>
+            <p class="hero-quote">"Don't just learn. Build. Ship. Repeat."</p>
+            <div class="hero-buttons">
+                <a href="#portfolio" class="btn">View Projects</a>
+                <a href="#contact" class="btn">Hire Me</a>
+            </div>
+            <div class="social-links">
+                <a href="https://linkedin.com/in/ashish-yadav-ab206124a" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/ashish7802" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/_ashyadav/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a Full Stack Developer and AI Builder based in Lucknow, India. I design and build complete web applications end-to-end — from designing the UI to writing the backend APIs, connecting the database, and deploying to production.</p>
+                    <p>I also have 2+ years of experience in B2B lead generation and prospect research, helping businesses find and connect with their ideal clients.</p>
+                    <p>My mission: Build real products. Solve real problems. Deliver clean results.</p>
+                    <div class="skills">
+                        <h3>Skills</h3>
+                        <p class="skill-cat">Frontend</p>
+                        <div class="skill-tags">
+                            <span class="skill-tag">HTML</span>
+                            <span class="skill-tag">CSS</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">TypeScript</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Next.js</span>
+                            <span class="skill-tag">Tailwind CSS</span>
+                        </div>
+                        <p class="skill-cat">Backend</p>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">FastAPI</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">Express</span>
+                            <span class="skill-tag">MongoDB</span>
+                        </div>
+                        <p class="skill-cat">AI &amp; Tools</p>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Gemini API</span>
+                            <span class="skill-tag">Claude AI</span>
+                            <span class="skill-tag">ChatGPT API</span>
+                            <span class="skill-tag">OpenAI</span>
+                            <span class="skill-tag">LangChain</span>
+                            <span class="skill-tag">Hugging Face</span>
+                            <span class="skill-tag">VS Code</span>
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">GitHub</span>
+                            <span class="skill-tag">Postman</span>
+                            <span class="skill-tag">Docker</span>
+                        </div>
+                        <p class="skill-cat">Lead Generation</p>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Apollo.io</span>
+                            <span class="skill-tag">ZoomInfo</span>
+                            <span class="skill-tag">LinkedIn Sales Navigator</span>
+                            <span class="skill-tag">Hunter.io</span>
+                            <span class="skill-tag">Manta</span>
+                            <span class="skill-tag">Yelp</span>
+                            <span class="skill-tag">ContactOut</span>
+                            <span class="skill-tag">BBB</span>
+                            <span class="skill-tag">DNB</span>
+                            <span class="skill-tag">NeverBounce</span>
+                            <span class="skill-tag">Phantombuster</span>                            
+                            <span class="skill-tag">Google Sheets</span>                      
+                            <span class="skill-tag">Excel</span>                 
+                            <span class="skill-tag">LinkedIn</span>           
+                        </div> 
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="images/avatar.png" alt="About Image" class="about-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2 class="section-title">My Work</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="images/commitai.png" alt="CommitAI">
+                        <div class="portfolio-overlay">
+                            <h3>CommitAI</h3>
+                            <p>AI-powered Git commit message generator — paste your diff, get 3 perfect commit messages instantly.</p>
+                            <a href="https://github.com/ashish7802" target="_blank" class="btn">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="images/smilecare.png" alt="SmileCare Dental">
+                        <div class="portfolio-overlay">
+                            <h3>SmileCare Dental</h3>
+                            <p>Full stack dental clinic website with appointment booking, admin dashboard and email confirmation.</p>
+                            <a href="https://github.com/ashish7802" target="_blank" class="btn">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="images/finance.png" alt="Finance Tracker AI">
+                        <div class="portfolio-overlay">
+                            <h3>Finance Tracker AI</h3>
+                            <p>Personal finance tracker with AI-powered advice and insights.</p>
+                            <a href="https://github.com/ashish7802" target="_blank" class="btn">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="images/roastcode.png" alt="Roast My Code">
+                        <div class="portfolio-overlay">
+                            <h3>Roast My Code</h3>
+                            <p>AI code reviewer that roasts your bad code with helpful suggestions.</p>
+                            <a href="https://github.com/ashish7802" target="_blank" class="btn">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="images/snapvault.png" alt="SnapVault">
+                        <div class="portfolio-overlay">
+                            <h3>SnapVault</h3>
+                            <p>Secure full stack developer tool with vault features for sensitive data management.</p>
+                            <a href="https://github.com/ashish7802" target="_blank" class="btn">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="images/anonconnect.png" alt="AnonConnect">
+                        <div class="portfolio-overlay">
+                            <h3>AnonConnect</h3>
+                            <p>AI-powered smart assistant platform with real-time anonymous features.</p>
+                            <a href="https://github.com/ashish7802" target="_blank" class="btn">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume" class="section">
+        <div class="container">
+            <h2 class="section-title">Education &amp; Experience</h2>
+            <div class="resume-content">
+                <div class="resume-left">
+                    <h3>Education</h3>
+                    <div class="education-item">
+                        <h4>B.Tech — Computer Science</h4>
+                        <p class="university">Babu Banarasi Das University (BBDU), Lucknow</p>
+                        <p class="date">2025 – Present</p>
+                        <p>Currently pursuing Bachelor of Technology in Computer Science, building strong foundations in software development, algorithms, and AI systems.</p>
+                    </div>
+                    <div class="education-item">
+                        <h4>12th — Science Stream</h4>
+                        <p class="university">GPCL Inter College, Bachhrawan, Raebareli</p>
+                        <p class="date">Completed</p>
+                        <p>Completed higher secondary education with focus on science and mathematics.</p>
+                    </div>
+                </div>
+                <div class="resume-right">
+                    <h3>Experience</h3>
+                    <div class="experience-item">
+                        <h4>Lead Researcher</h4>
+                        <p class="company">Task Minions</p>
+                        <p class="date">2023 – Present · 2+ Years</p>
+                        <ul class="certifications">
+                            <li>B2B lead generation &amp; prospect research for client sales pipelines</li>
+                            <li>Cleaning data lists &amp; verifying emails for accuracy</li>
+                            <li>Building organized Google Sheets &amp; Excel reports</li>
+                            <li>Using AI tools for research automation &amp; data extraction</li>
+                            <li>Finding decision makers via LinkedIn &amp; company websites</li>
+                            <li>Supporting clients with admin tasks &amp; documentation</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>ashishyadav4818@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+91 9794918800</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Lucknow, India</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <p>Available for freelance projects 🟢</p>
+                    </div>
+                    <div class="social-links-contact">
+                        <a href="https://linkedin.com/in/ashish-yadav-ab206124a" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/ashish7802" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/_ashyadav/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="https://wa.me/919794918800" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer style="text-align:center; padding:30px; color:#b0b0b0; font-size:14px; border-top:1px solid rgba(255,255,255,0.06);">
+        <p>© 2026 Ashish Yadav · Made with ❤️ in Lucknow, India</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
